@@ -22,18 +22,18 @@ function setup() {
 	//Create a Ground
 	
 
-	var render = Render.create({
-	  element: document.body,
-	  engine: engine,
-	  options: {
-	    width: 1600,
-	    height: 700,
-	    wireframes: false
-	  }
-	});
+// 	var render = Render.create({
+// 	  element: document.body,
+// 	  engine: engine,
+// 	  options: {
+// 	    width: 1600,
+// 	    height: 700,
+// 	    wireframes: false
+// 	  }
+// 	});
 
 	Engine.run(engine);
-	Render.run(render);
+	//Render.run(render);
   
 }
 
